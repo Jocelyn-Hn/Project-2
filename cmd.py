@@ -47,9 +47,16 @@ def main():
             print('Rolls:', ','.join([str(roll) for roll in rolls]))
             print('Total:', sum(rolls))
 
-        elif option == 'd10':
+        elif option == 'd6':
             for roll in range(number):
-                rolls.append(randint(1, 11))
+                rolls.append(randint(1, 7))
+
+            print('Rolls:', ','.join([str(roll) for roll in rolls]))
+            print('Total:', sum(rolls))
+
+        elif option == 'd4':
+            for roll in range(number):
+                rolls.append(randint(1, 5))
 
             print('Rolls:', ','.join([str(roll) for roll in rolls]))
             print('Total:', sum(rolls))
