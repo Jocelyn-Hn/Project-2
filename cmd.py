@@ -1,3 +1,5 @@
+""" Original code-based simulator. """
+
 from random import *
 
 
