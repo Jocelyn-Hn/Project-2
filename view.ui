@@ -45,9 +45,9 @@
    <widget class="QLabel" name="label_d100">
     <property name="geometry">
      <rect>
-      <x>80</x>
+      <x>90</x>
       <y>140</y>
-      <width>61</width>
+      <width>51</width>
       <height>21</height>
      </rect>
     </property>
@@ -61,9 +61,9 @@
    <widget class="QLabel" name="label_d20">
     <property name="geometry">
      <rect>
-      <x>80</x>
+      <x>100</x>
       <y>170</y>
-      <width>61</width>
+      <width>41</width>
       <height>21</height>
      </rect>
     </property>
@@ -77,9 +77,9 @@
    <widget class="QLabel" name="label_d12">
     <property name="geometry">
      <rect>
-      <x>80</x>
+      <x>100</x>
       <y>200</y>
-      <width>61</width>
+      <width>41</width>
       <height>21</height>
      </rect>
     </property>
@@ -93,9 +93,9 @@
    <widget class="QLabel" name="label_d8">
     <property name="geometry">
      <rect>
-      <x>80</x>
+      <x>100</x>
       <y>260</y>
-      <width>61</width>
+      <width>41</width>
       <height>21</height>
      </rect>
     </property>
@@ -109,9 +109,9 @@
    <widget class="QLabel" name="label_d6">
     <property name="geometry">
      <rect>
-      <x>80</x>
+      <x>100</x>
       <y>290</y>
-      <width>61</width>
+      <width>41</width>
       <height>21</height>
      </rect>
     </property>
@@ -125,9 +125,9 @@
    <widget class="QLabel" name="label_d4">
     <property name="geometry">
      <rect>
-      <x>80</x>
+      <x>100</x>
       <y>320</y>
-      <width>61</width>
+      <width>41</width>
       <height>21</height>
      </rect>
     </property>
@@ -544,9 +544,9 @@
    <widget class="QLabel" name="label_d10">
     <property name="geometry">
      <rect>
-      <x>80</x>
+      <x>100</x>
       <y>230</y>
-      <width>61</width>
+      <width>41</width>
       <height>21</height>
      </rect>
     </property>
@@ -797,6 +797,118 @@
      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
     </property>
    </widget>
+   <widget class="QLabel" name="error_d100">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>140</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="error_d20">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>170</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="error_d12">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>200</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="error_d10">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>230</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="error_d8">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>260</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="error_d6">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>290</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="error_d4">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>320</y>
+      <width>21</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -804,7 +916,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>21</height>
+     <height>26</height>
     </rect>
    </property>
   </widget>
