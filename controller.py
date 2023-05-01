@@ -91,6 +91,7 @@ class Controller(QMainWindow, Ui_MainWindow):
             self.error_d4.setText('')
 
     def roll(self):
+        # FIXME: (*) not displaying when string values are input. Works with incorrect integers.
         try:
             if self.checkBox_d100.isChecked():
                 rolls = []
