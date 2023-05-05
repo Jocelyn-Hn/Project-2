@@ -13,6 +13,7 @@ class Controller(QMainWindow, Ui_MainWindow):
         self.button_help.clicked.connect(lambda: self.help())
         self.button_clear.clicked.connect(lambda: self.clear())
         self.button_roll.clicked.connect(lambda: self.roll())
+
         self.checkBox_d100.stateChanged.connect(lambda: self.state_changed())
         self.checkBox_d20.stateChanged.connect(lambda: self.state_changed())
         self.checkBox_d12.stateChanged.connect(lambda: self.state_changed())
@@ -20,6 +21,7 @@ class Controller(QMainWindow, Ui_MainWindow):
         self.checkBox_d8.stateChanged.connect(lambda: self.state_changed())
         self.checkBox_d6.stateChanged.connect(lambda: self.state_changed())
         self.checkBox_d4.stateChanged.connect(lambda: self.state_changed())
+
         self.input_d100.setEnabled(False)
         self.input_d20.setEnabled(False)
         self.input_d12.setEnabled(False)
