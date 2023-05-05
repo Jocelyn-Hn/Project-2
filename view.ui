@@ -45,7 +45,7 @@
    <widget class="QLabel" name="label_d100">
     <property name="geometry">
      <rect>
-      <x>90</x>
+      <x>80</x>
       <y>140</y>
       <width>51</width>
       <height>21</height>
@@ -61,7 +61,7 @@
    <widget class="QLabel" name="label_d20">
     <property name="geometry">
      <rect>
-      <x>100</x>
+      <x>90</x>
       <y>170</y>
       <width>41</width>
       <height>21</height>
@@ -77,7 +77,7 @@
    <widget class="QLabel" name="label_d12">
     <property name="geometry">
      <rect>
-      <x>100</x>
+      <x>90</x>
       <y>200</y>
       <width>41</width>
       <height>21</height>
@@ -93,7 +93,7 @@
    <widget class="QLabel" name="label_d8">
     <property name="geometry">
      <rect>
-      <x>100</x>
+      <x>90</x>
       <y>260</y>
       <width>41</width>
       <height>21</height>
@@ -109,7 +109,7 @@
    <widget class="QLabel" name="label_d6">
     <property name="geometry">
      <rect>
-      <x>100</x>
+      <x>90</x>
       <y>290</y>
       <width>41</width>
       <height>21</height>
@@ -125,7 +125,7 @@
    <widget class="QLabel" name="label_d4">
     <property name="geometry">
      <rect>
-      <x>100</x>
+      <x>90</x>
       <y>320</y>
       <width>41</width>
       <height>21</height>
@@ -196,7 +196,7 @@
    <widget class="QLabel" name="label_rollsd100">
     <property name="geometry">
      <rect>
-      <x>310</x>
+      <x>300</x>
       <y>140</y>
       <width>55</width>
       <height>21</height>
@@ -212,7 +212,7 @@
    <widget class="QLabel" name="label_rollsd20">
     <property name="geometry">
      <rect>
-      <x>310</x>
+      <x>300</x>
       <y>170</y>
       <width>55</width>
       <height>21</height>
@@ -228,7 +228,7 @@
    <widget class="QLabel" name="label_rollsd12">
     <property name="geometry">
      <rect>
-      <x>310</x>
+      <x>300</x>
       <y>200</y>
       <width>55</width>
       <height>21</height>
@@ -244,7 +244,7 @@
    <widget class="QLabel" name="label_rollsd8">
     <property name="geometry">
      <rect>
-      <x>310</x>
+      <x>300</x>
       <y>260</y>
       <width>55</width>
       <height>21</height>
@@ -260,7 +260,7 @@
    <widget class="QLabel" name="label_rollsd6">
     <property name="geometry">
      <rect>
-      <x>310</x>
+      <x>300</x>
       <y>290</y>
       <width>55</width>
       <height>21</height>
@@ -276,7 +276,7 @@
    <widget class="QLabel" name="label_rollsd4">
     <property name="geometry">
      <rect>
-      <x>310</x>
+      <x>300</x>
       <y>320</y>
       <width>55</width>
       <height>21</height>
@@ -292,7 +292,7 @@
    <widget class="QLabel" name="rolls_d100">
     <property name="geometry">
      <rect>
-      <x>380</x>
+      <x>370</x>
       <y>140</y>
       <width>231</width>
       <height>20</height>
@@ -305,7 +305,7 @@
    <widget class="QLabel" name="rolls_d20">
     <property name="geometry">
      <rect>
-      <x>380</x>
+      <x>370</x>
       <y>170</y>
       <width>231</width>
       <height>20</height>
@@ -318,7 +318,7 @@
    <widget class="QLabel" name="rolls_d12">
     <property name="geometry">
      <rect>
-      <x>380</x>
+      <x>370</x>
       <y>200</y>
       <width>231</width>
       <height>20</height>
@@ -331,7 +331,7 @@
    <widget class="QLabel" name="rolls_d8">
     <property name="geometry">
      <rect>
-      <x>380</x>
+      <x>370</x>
       <y>260</y>
       <width>231</width>
       <height>20</height>
@@ -344,7 +344,7 @@
    <widget class="QLabel" name="rolls_d6">
     <property name="geometry">
      <rect>
-      <x>380</x>
+      <x>370</x>
       <y>290</y>
       <width>231</width>
       <height>20</height>
@@ -357,7 +357,7 @@
    <widget class="QLabel" name="rolls_d4">
     <property name="geometry">
      <rect>
-      <x>380</x>
+      <x>370</x>
       <y>320</y>
       <width>231</width>
       <height>20</height>
@@ -370,7 +370,7 @@
    <widget class="QLabel" name="label_totald100">
     <property name="geometry">
      <rect>
-      <x>620</x>
+      <x>610</x>
       <y>140</y>
       <width>51</width>
       <height>21</height>
@@ -386,7 +386,7 @@
    <widget class="QLabel" name="label_totald8">
     <property name="geometry">
      <rect>
-      <x>620</x>
+      <x>610</x>
       <y>260</y>
       <width>51</width>
       <height>21</height>
@@ -402,7 +402,7 @@
    <widget class="QLabel" name="total_d100">
     <property name="geometry">
      <rect>
-      <x>680</x>
+      <x>670</x>
       <y>140</y>
       <width>55</width>
       <height>21</height>
@@ -415,7 +415,7 @@
    <widget class="QLabel" name="total_d12">
     <property name="geometry">
      <rect>
-      <x>680</x>
+      <x>670</x>
       <y>200</y>
       <width>55</width>
       <height>21</height>
@@ -428,7 +428,7 @@
    <widget class="QLabel" name="total_d6">
     <property name="geometry">
      <rect>
-      <x>680</x>
+      <x>670</x>
       <y>290</y>
       <width>55</width>
       <height>21</height>
@@ -441,7 +441,7 @@
    <widget class="QLabel" name="label_totald6">
     <property name="geometry">
      <rect>
-      <x>620</x>
+      <x>610</x>
       <y>290</y>
       <width>51</width>
       <height>21</height>
@@ -457,7 +457,7 @@
    <widget class="QLabel" name="label_totald4">
     <property name="geometry">
      <rect>
-      <x>620</x>
+      <x>610</x>
       <y>320</y>
       <width>51</width>
       <height>21</height>
@@ -473,7 +473,7 @@
    <widget class="QLabel" name="total_d4">
     <property name="geometry">
      <rect>
-      <x>680</x>
+      <x>670</x>
       <y>320</y>
       <width>55</width>
       <height>21</height>
@@ -486,7 +486,7 @@
    <widget class="QLabel" name="label_totald20">
     <property name="geometry">
      <rect>
-      <x>620</x>
+      <x>610</x>
       <y>170</y>
       <width>51</width>
       <height>21</height>
@@ -502,7 +502,7 @@
    <widget class="QLabel" name="label_totald12">
     <property name="geometry">
      <rect>
-      <x>620</x>
+      <x>610</x>
       <y>200</y>
       <width>51</width>
       <height>21</height>
@@ -518,7 +518,7 @@
    <widget class="QLabel" name="total_d8">
     <property name="geometry">
      <rect>
-      <x>680</x>
+      <x>670</x>
       <y>260</y>
       <width>55</width>
       <height>21</height>
@@ -531,7 +531,7 @@
    <widget class="QLabel" name="total_d20">
     <property name="geometry">
      <rect>
-      <x>680</x>
+      <x>670</x>
       <y>170</y>
       <width>55</width>
       <height>21</height>
@@ -544,7 +544,7 @@
    <widget class="QLabel" name="label_d10">
     <property name="geometry">
      <rect>
-      <x>100</x>
+      <x>90</x>
       <y>230</y>
       <width>41</width>
       <height>21</height>
@@ -560,7 +560,7 @@
    <widget class="QLabel" name="label_rollsd10">
     <property name="geometry">
      <rect>
-      <x>310</x>
+      <x>300</x>
       <y>230</y>
       <width>55</width>
       <height>21</height>
@@ -576,7 +576,7 @@
    <widget class="QLabel" name="total_d10">
     <property name="geometry">
      <rect>
-      <x>680</x>
+      <x>670</x>
       <y>230</y>
       <width>55</width>
       <height>21</height>
@@ -589,7 +589,7 @@
    <widget class="QLabel" name="rolls_d10">
     <property name="geometry">
      <rect>
-      <x>380</x>
+      <x>370</x>
       <y>230</y>
       <width>231</width>
       <height>20</height>
@@ -602,7 +602,7 @@
    <widget class="QLabel" name="label_totald10">
     <property name="geometry">
      <rect>
-      <x>620</x>
+      <x>610</x>
       <y>230</y>
       <width>51</width>
       <height>21</height>
@@ -618,7 +618,7 @@
    <widget class="QCheckBox" name="checkBox_d100">
     <property name="geometry">
      <rect>
-      <x>170</x>
+      <x>160</x>
       <y>140</y>
       <width>16</width>
       <height>20</height>
@@ -631,7 +631,7 @@
    <widget class="QCheckBox" name="checkBox_d20">
     <property name="geometry">
      <rect>
-      <x>170</x>
+      <x>160</x>
       <y>170</y>
       <width>16</width>
       <height>20</height>
@@ -644,7 +644,7 @@
    <widget class="QCheckBox" name="checkBox_d12">
     <property name="geometry">
      <rect>
-      <x>170</x>
+      <x>160</x>
       <y>200</y>
       <width>16</width>
       <height>20</height>
@@ -657,7 +657,7 @@
    <widget class="QCheckBox" name="checkBox_d10">
     <property name="geometry">
      <rect>
-      <x>170</x>
+      <x>160</x>
       <y>230</y>
       <width>16</width>
       <height>20</height>
@@ -670,7 +670,7 @@
    <widget class="QCheckBox" name="checkBox_d8">
     <property name="geometry">
      <rect>
-      <x>170</x>
+      <x>160</x>
       <y>260</y>
       <width>16</width>
       <height>20</height>
@@ -683,7 +683,7 @@
    <widget class="QCheckBox" name="checkBox_d6">
     <property name="geometry">
      <rect>
-      <x>170</x>
+      <x>160</x>
       <y>290</y>
       <width>16</width>
       <height>20</height>
@@ -696,7 +696,7 @@
    <widget class="QCheckBox" name="checkBox_d4">
     <property name="geometry">
      <rect>
-      <x>170</x>
+      <x>160</x>
       <y>320</y>
       <width>16</width>
       <height>20</height>
@@ -709,7 +709,7 @@
    <widget class="QLineEdit" name="input_d100">
     <property name="geometry">
      <rect>
-      <x>200</x>
+      <x>190</x>
       <y>140</y>
       <width>71</width>
       <height>22</height>
@@ -722,7 +722,7 @@
    <widget class="QLineEdit" name="input_d20">
     <property name="geometry">
      <rect>
-      <x>200</x>
+      <x>190</x>
       <y>170</y>
       <width>71</width>
       <height>22</height>
@@ -735,7 +735,7 @@
    <widget class="QLineEdit" name="input_d12">
     <property name="geometry">
      <rect>
-      <x>200</x>
+      <x>190</x>
       <y>200</y>
       <width>71</width>
       <height>22</height>
@@ -748,7 +748,7 @@
    <widget class="QLineEdit" name="input_d10">
     <property name="geometry">
      <rect>
-      <x>200</x>
+      <x>190</x>
       <y>230</y>
       <width>71</width>
       <height>22</height>
@@ -761,7 +761,7 @@
    <widget class="QLineEdit" name="input_d8">
     <property name="geometry">
      <rect>
-      <x>200</x>
+      <x>190</x>
       <y>260</y>
       <width>71</width>
       <height>22</height>
@@ -774,7 +774,7 @@
    <widget class="QLineEdit" name="input_d6">
     <property name="geometry">
      <rect>
-      <x>200</x>
+      <x>190</x>
       <y>290</y>
       <width>71</width>
       <height>22</height>
@@ -787,7 +787,7 @@
    <widget class="QLineEdit" name="input_d4">
     <property name="geometry">
      <rect>
-      <x>200</x>
+      <x>190</x>
       <y>320</y>
       <width>71</width>
       <height>22</height>
