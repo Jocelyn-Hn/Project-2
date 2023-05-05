@@ -40,7 +40,6 @@ class Controller(QMainWindow, Ui_MainWindow):
             self.input_d100.setEnabled(False)
             self.rolls_d100.setText('')
             self.total_d100.setText('')
-            self.error_d100.setText('')
 
         if self.checkBox_d20.isChecked():
             self.input_d20.setEnabled(True)
@@ -48,7 +47,6 @@ class Controller(QMainWindow, Ui_MainWindow):
             self.input_d20.setEnabled(False)
             self.rolls_d20.setText('')
             self.total_d20.setText('')
-            self.error_d20.setText('')
 
         if self.checkBox_d12.isChecked():
             self.input_d12.setEnabled(True)
@@ -56,7 +54,6 @@ class Controller(QMainWindow, Ui_MainWindow):
             self.input_d12.setEnabled(False)
             self.rolls_d12.setText('')
             self.total_d12.setText('')
-            self.error_d12.setText('')
 
         if self.checkBox_d10.isChecked():
             self.input_d10.setEnabled(True)
@@ -64,7 +61,6 @@ class Controller(QMainWindow, Ui_MainWindow):
             self.input_d10.setEnabled(False)
             self.rolls_d10.setText('')
             self.total_d10.setText('')
-            self.error_d10.setText('')
 
         if self.checkBox_d8.isChecked():
             self.input_d8.setEnabled(True)
@@ -72,7 +68,6 @@ class Controller(QMainWindow, Ui_MainWindow):
             self.input_d8.setEnabled(False)
             self.rolls_d8.setText('')
             self.total_d8.setText('')
-            self.error_d8.setText('')
 
         if self.checkBox_d6.isChecked():
             self.input_d6.setEnabled(True)
@@ -80,7 +75,6 @@ class Controller(QMainWindow, Ui_MainWindow):
             self.input_d6.setEnabled(False)
             self.rolls_d6.setText('')
             self.total_d6.setText('')
-            self.error_d6.setText('')
 
         if self.checkBox_d4.isChecked():
             self.input_d4.setEnabled(True)
@@ -88,18 +82,14 @@ class Controller(QMainWindow, Ui_MainWindow):
             self.input_d4.setEnabled(False)
             self.rolls_d4.setText('')
             self.total_d4.setText('')
-            self.error_d4.setText('')
 
     def roll(self):
-        # FIXME: (*) not displaying when string values are input. Works with incorrect integers.
         try:
             if self.checkBox_d100.isChecked():
                 rolls = []
                 if int(self.input_d100.text()) > 10 or int(self.input_d100.text()) < 1:
-                    self.error_d100.setText('*')
                     raise ValueError
                 else:
-                    self.error_d100.setText('')
                     self.instructions.setText('')
                     for roll in range(int(self.input_d100.text())):
                         rolls.append(randint(1, 101))
@@ -109,10 +99,8 @@ class Controller(QMainWindow, Ui_MainWindow):
             if self.checkBox_d20.isChecked():
                 rolls = []
                 if int(self.input_d20.text()) > 10 or int(self.input_d20.text()) < 1:
-                    self.error_d20.setText('*')
                     raise ValueError
                 else:
-                    self.error_d20.setText('')
                     self.instructions.setText('')
                     for roll in range(int(self.input_d20.text())):
                         rolls.append(randint(1, 21))
@@ -122,10 +110,8 @@ class Controller(QMainWindow, Ui_MainWindow):
             if self.checkBox_d12.isChecked():
                 rolls = []
                 if int(self.input_d12.text()) > 10 or int(self.input_d12.text()) < 1:
-                    self.error_d12.setText('*')
                     raise ValueError
                 else:
-                    self.error_d12.setText('')
                     self.instructions.setText('')
                     for roll in range(int(self.input_d12.text())):
                         rolls.append(randint(1, 13))
@@ -135,10 +121,8 @@ class Controller(QMainWindow, Ui_MainWindow):
             if self.checkBox_d10.isChecked():
                 rolls = []
                 if int(self.input_d10.text()) > 10 or int(self.input_d10.text()) < 1:
-                    self.error_d10.setText('*')
                     raise ValueError
                 else:
-                    self.error_d10.setText('')
                     self.instructions.setText('')
                     for roll in range(int(self.input_d10.text())):
                         rolls.append(randint(1, 11))
@@ -148,10 +132,8 @@ class Controller(QMainWindow, Ui_MainWindow):
             if self.checkBox_d8.isChecked():
                 rolls = []
                 if int(self.input_d8.text()) > 10 or int(self.input_d8.text()) < 1:
-                    self.error_d8.setText('*')
                     raise ValueError
                 else:
-                    self.error_d8.setText('')
                     self.instructions.setText('')
                     for roll in range(int(self.input_d8.text())):
                         rolls.append(randint(1, 9))
@@ -161,10 +143,8 @@ class Controller(QMainWindow, Ui_MainWindow):
             if self.checkBox_d6.isChecked():
                 rolls = []
                 if int(self.input_d6.text()) > 10 or int(self.input_d6.text()) < 1:
-                    self.error_d6.setText('*')
                     raise ValueError
                 else:
-                    self.error_d6.setText('')
                     self.instructions.setText('')
                     for roll in range(int(self.input_d6.text())):
                         rolls.append(randint(1, 7))
@@ -174,17 +154,15 @@ class Controller(QMainWindow, Ui_MainWindow):
             if self.checkBox_d4.isChecked():
                 rolls = []
                 if int(self.input_d4.text()) > 10 or int(self.input_d4.text()) < 1:
-                    self.error_d4.setText('*')
                     raise ValueError
                 else:
-                    self.error_d4.setText('')
                     self.instructions.setText('')
                     for roll in range(int(self.input_d4.text())):
                         rolls.append(randint(1, 5))
                         self.rolls_d4.setText(', '.join([str(roll) for roll in rolls]))
                         self.total_d4.setText(str(sum(rolls)))
         except ValueError:
-            self.instructions.setText('Please input a dice amount from 1 - 10. (*)')
+            self.instructions.setText('Please input a numerical dice amount from 1 - 10.')
             self.error_clear()
 
     def error_clear(self):
@@ -240,10 +218,3 @@ class Controller(QMainWindow, Ui_MainWindow):
         self.total_d8.setText('')
         self.total_d6.setText('')
         self.total_d4.setText('')
-        self.error_d100.setText('')
-        self.error_d20.setText('')
-        self.error_d12.setText('')
-        self.error_d10.setText('')
-        self.error_d8.setText('')
-        self.error_d6.setText('')
-        self.error_d4.setText('')
