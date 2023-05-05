@@ -1,5 +1,3 @@
-# pyuic5 -x view.ui -o view.py
-
 from controller import *
 
 
