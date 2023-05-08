@@ -8,6 +8,12 @@ QtWidgets.QApplication.setAttribute(QtCore.Qt.AA_UseHighDpiPixmaps, True)
 
 class Controller(QMainWindow, Ui_MainWindow):
     def __init__(self, *args, **kwargs):
+        """
+        Function to set up application object.
+        :param name: Controller
+        :param args:
+        :param kwargs:
+        """
         super().__init__(*args, **kwargs)
         self.setupUi(self)
         self.button_help.clicked.connect(lambda: self.help())
@@ -31,11 +37,19 @@ class Controller(QMainWindow, Ui_MainWindow):
         self.input_d4.setEnabled(False)
 
     def help(self):
+        """
+        Function to display instructions.
+        :return:
+        """
         self.instructions.setText('Check corresponding boxes for dice desired. \n'
                                   'Enter amount of dice to be rolled. \n'
                                   'Insert whole integers. (e.g. 5 not 5.5, 3 not \'e\'.)')
 
     def state_changed(self):
+        """
+        Function to enable input boxes when checkboxes are selected.
+        :return:
+        """
         if self.checkBox_d100.isChecked():
             self.input_d100.setEnabled(True)
         else:
@@ -86,6 +100,10 @@ class Controller(QMainWindow, Ui_MainWindow):
             self.total_d4.setText('')
 
     def roll(self):
+        """
+        Function to roll selected dice.
+        :return:
+        """
         try:
             if self.checkBox_d100.isChecked():
                 rolls = []
@@ -168,6 +186,10 @@ class Controller(QMainWindow, Ui_MainWindow):
             self.error_clear()
 
     def error_clear(self):
+        """
+        Function that clears output labels when invalid input is entered.
+        :return:
+        """
         self.rolls_d100.setText('')
         self.rolls_d20.setText('')
         self.rolls_d12.setText('')
@@ -184,6 +206,10 @@ class Controller(QMainWindow, Ui_MainWindow):
         self.total_d4.setText('')
 
     def clear(self):
+        """
+        Function that resets the application.
+        :return:
+        """
         self.checkBox_d100.setChecked(False)
         self.checkBox_d20.setChecked(False)
         self.checkBox_d12.setChecked(False)
