@@ -56,6 +56,8 @@ class Controller(QMainWindow, Ui_MainWindow):
             self.input_d100.setEnabled(False)
             self.rolls_d100.setText('')
             self.total_d100.setText('')
+            self.label_totald100.setText('')
+            self.label_rollsd100.setText('')
 
         if self.checkBox_d20.isChecked():
             self.input_d20.setEnabled(True)
@@ -63,6 +65,8 @@ class Controller(QMainWindow, Ui_MainWindow):
             self.input_d20.setEnabled(False)
             self.rolls_d20.setText('')
             self.total_d20.setText('')
+            self.label_totald20.setText('')
+            self.label_rollsd20.setText('')
 
         if self.checkBox_d12.isChecked():
             self.input_d12.setEnabled(True)
@@ -70,6 +74,8 @@ class Controller(QMainWindow, Ui_MainWindow):
             self.input_d12.setEnabled(False)
             self.rolls_d12.setText('')
             self.total_d12.setText('')
+            self.label_totald12.setText('')
+            self.label_rollsd12.setText('')
 
         if self.checkBox_d10.isChecked():
             self.input_d10.setEnabled(True)
@@ -77,6 +83,8 @@ class Controller(QMainWindow, Ui_MainWindow):
             self.input_d10.setEnabled(False)
             self.rolls_d10.setText('')
             self.total_d10.setText('')
+            self.label_totald10.setText('')
+            self.label_rollsd10.setText('')
 
         if self.checkBox_d8.isChecked():
             self.input_d8.setEnabled(True)
@@ -84,6 +92,8 @@ class Controller(QMainWindow, Ui_MainWindow):
             self.input_d8.setEnabled(False)
             self.rolls_d8.setText('')
             self.total_d8.setText('')
+            self.label_totald8.setText('')
+            self.label_rollsd8.setText('')
 
         if self.checkBox_d6.isChecked():
             self.input_d6.setEnabled(True)
@@ -91,6 +101,8 @@ class Controller(QMainWindow, Ui_MainWindow):
             self.input_d6.setEnabled(False)
             self.rolls_d6.setText('')
             self.total_d6.setText('')
+            self.label_totald6.setText('')
+            self.label_rollsd6.setText('')
 
         if self.checkBox_d4.isChecked():
             self.input_d4.setEnabled(True)
@@ -98,6 +110,8 @@ class Controller(QMainWindow, Ui_MainWindow):
             self.input_d4.setEnabled(False)
             self.rolls_d4.setText('')
             self.total_d4.setText('')
+            self.label_totald4.setText('')
+            self.label_rollsd4.setText('')
 
     def roll(self):
         """
@@ -111,6 +125,8 @@ class Controller(QMainWindow, Ui_MainWindow):
                     raise ValueError
                 else:
                     self.instructions.setText('')
+                    self.label_rollsd100.setText('Rolls:')
+                    self.label_totald100.setText('Total:')
                     for roll in range(int(self.input_d100.text())):
                         rolls.append(randint(1, 101))
                         self.rolls_d100.setText(', '.join([str(roll) for roll in rolls]))
@@ -121,6 +137,8 @@ class Controller(QMainWindow, Ui_MainWindow):
                 if int(self.input_d20.text()) > 10 or int(self.input_d20.text()) < 1:
                     raise ValueError
                 else:
+                    self.label_rollsd20.setText('Rolls:')
+                    self.label_totald20.setText('Total:')
                     self.instructions.setText('')
                     for roll in range(int(self.input_d20.text())):
                         rolls.append(randint(1, 21))
@@ -132,6 +150,8 @@ class Controller(QMainWindow, Ui_MainWindow):
                 if int(self.input_d12.text()) > 10 or int(self.input_d12.text()) < 1:
                     raise ValueError
                 else:
+                    self.label_rollsd12.setText('Rolls:')
+                    self.label_totald12.setText('Total:')
                     self.instructions.setText('')
                     for roll in range(int(self.input_d12.text())):
                         rolls.append(randint(1, 13))
@@ -143,6 +163,8 @@ class Controller(QMainWindow, Ui_MainWindow):
                 if int(self.input_d10.text()) > 10 or int(self.input_d10.text()) < 1:
                     raise ValueError
                 else:
+                    self.label_rollsd10.setText('Rolls:')
+                    self.label_totald10.setText('Total:')
                     self.instructions.setText('')
                     for roll in range(int(self.input_d10.text())):
                         rolls.append(randint(1, 11))
@@ -154,6 +176,8 @@ class Controller(QMainWindow, Ui_MainWindow):
                 if int(self.input_d8.text()) > 10 or int(self.input_d8.text()) < 1:
                     raise ValueError
                 else:
+                    self.label_rollsd8.setText('Rolls:')
+                    self.label_totald8.setText('Total:')
                     self.instructions.setText('')
                     for roll in range(int(self.input_d8.text())):
                         rolls.append(randint(1, 9))
@@ -165,6 +189,8 @@ class Controller(QMainWindow, Ui_MainWindow):
                 if int(self.input_d6.text()) > 10 or int(self.input_d6.text()) < 1:
                     raise ValueError
                 else:
+                    self.label_rollsd6.setText('Rolls:')
+                    self.label_totald6.setText('Total:')
                     self.instructions.setText('')
                     for roll in range(int(self.input_d6.text())):
                         rolls.append(randint(1, 7))
@@ -176,6 +202,8 @@ class Controller(QMainWindow, Ui_MainWindow):
                 if int(self.input_d4.text()) > 10 or int(self.input_d4.text()) < 1:
                     raise ValueError
                 else:
+                    self.label_rollsd4.setText('Rolls:')
+                    self.label_totald4.setText('Total:')
                     self.instructions.setText('')
                     for roll in range(int(self.input_d4.text())):
                         rolls.append(randint(1, 5))
@@ -204,6 +232,20 @@ class Controller(QMainWindow, Ui_MainWindow):
         self.total_d8.setText('')
         self.total_d6.setText('')
         self.total_d4.setText('')
+        self.label_rollsd100.setText('')
+        self.label_rollsd20.setText('')
+        self.label_rollsd12.setText('')
+        self.label_rollsd10.setText('')
+        self.label_rollsd8.setText('')
+        self.label_rollsd6.setText('')
+        self.label_rollsd4.setText('')
+        self.label_totald100.setText('')
+        self.label_totald20.setText('')
+        self.label_totald12.setText('')
+        self.label_totald10.setText('')
+        self.label_totald8.setText('')
+        self.label_totald6.setText('')
+        self.label_totald4.setText('')
 
     def clear(self):
         """
@@ -246,3 +288,17 @@ class Controller(QMainWindow, Ui_MainWindow):
         self.total_d8.setText('')
         self.total_d6.setText('')
         self.total_d4.setText('')
+        self.label_rollsd100.setText('')
+        self.label_rollsd20.setText('')
+        self.label_rollsd12.setText('')
+        self.label_rollsd10.setText('')
+        self.label_rollsd8.setText('')
+        self.label_rollsd6.setText('')
+        self.label_rollsd4.setText('')
+        self.label_totald100.setText('')
+        self.label_totald20.setText('')
+        self.label_totald12.setText('')
+        self.label_totald10.setText('')
+        self.label_totald8.setText('')
+        self.label_totald6.setText('')
+        self.label_totald4.setText('')
