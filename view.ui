@@ -203,7 +203,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Rolls:</string>
+     <string/>
     </property>
     <property name="alignment">
      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -219,7 +219,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Rolls:</string>
+     <string/>
     </property>
     <property name="alignment">
      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -235,7 +235,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Rolls:</string>
+     <string/>
     </property>
     <property name="alignment">
      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -251,7 +251,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Rolls:</string>
+     <string/>
     </property>
     <property name="alignment">
      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -267,7 +267,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Rolls:</string>
+     <string/>
     </property>
     <property name="alignment">
      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -283,7 +283,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Rolls:</string>
+     <string/>
     </property>
     <property name="alignment">
      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -377,7 +377,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Total:</string>
+     <string/>
     </property>
     <property name="alignment">
      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -393,7 +393,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Total:</string>
+     <string/>
     </property>
     <property name="alignment">
      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -448,7 +448,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Total:</string>
+     <string/>
     </property>
     <property name="alignment">
      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -464,7 +464,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Total:</string>
+     <string/>
     </property>
     <property name="alignment">
      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -493,7 +493,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Total:</string>
+     <string/>
     </property>
     <property name="alignment">
      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -509,7 +509,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Total:</string>
+     <string/>
     </property>
     <property name="alignment">
      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -567,7 +567,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Rolls:</string>
+     <string/>
     </property>
     <property name="alignment">
      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -609,7 +609,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Total:</string>
+     <string/>
     </property>
     <property name="alignment">
      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
